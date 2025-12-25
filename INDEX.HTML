@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diwali wishes</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&family=Salsa&family=Style+Script&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="STYLE.CSS">
+</head>
+<body>
+    <section class="hero-section">
+    <img class="jhalar" src="Image/jhalar.png" alt="jhalar">
+</div>
+<div class="paragraph-audio">
+ <p>
+    Hi,<span id="receiver"></span>
+    <BR>
+You mean the world to me...
+So this Diwali, 
+I made something for you!</p>
+
+<div class="music-icon">  
+&nbsp;&nbsp;<img src="Icons/Music icon.svg" alt="Music icon">
+<span class="soulful-music">&nbsp; &nbsp;Soulful Music &nbsp;</span>
+<img class="Music-icon " src="Icons/Music icon 2.svg" alt="">
+<span class="audio">
+<audio src="music/happy_diwali.mp3" controls ></audio></span>
+
+   </div>
+</div>
+
+<img class="first-deepak" src="Image/Deepak.png" alt="Deepak">
+   <img class="second-deepak" src="Image/Deepak.png" alt="Deepak">
+    </section>
+
+    
+
+<section class="lakshmi-ganesha-section">
+
+    <div class="horizontal-devider">
+        <div class="horizontal-line"></div>
+         <div class="circle"></div>
+         <div class="circle"></div>
+         <div class="circle"></div>
+        <div class="horizontal-line"></div>
+
+    </div>
+<img class="lakshmi-ganesh-img" src="Image/lakshmi ganesh ji .png" alt="lakshmi ganesh ji">
+<h2>Wishing You a Blessed and Prosperous Deepawali</h2>
+
+<div class="horizontal-devider">
+        <div class="horizontal-line"></div>
+         <div class="circle"></div>
+         <div class="circle"></div>
+         <div class="circle"></div>
+        <div class="horizontal-line"></div>
+</div>
+        <div>
+           <div class="white-card-container">
+             <div class="white-card">
+                <p>People say, "Diwali is the festival of lights."</p>
+                <p>You know what,i can feel the positivity and happiness,. My goal is to learn web development and i'm learning
+                  <br>
+                    everyday, even today!
+                </p>
+            </div>
+            <img class="little-girl" src="Image/little-girl 1 (1).png" alt="little-girl ">
+           </div>
+           <div class="horizontal-devider">
+        <div class="horizontal-line"></div>
+         <div class="circle"></div>
+         <div class="circle"></div>
+         <div class="circle"></div>
+        <div class="horizontal-line"></div>
+        </div>
+<div class="lakshmi-ganesha-card">
+    <img src="Image/lakshmi.png" alt="lakshmi">
+    <img src="Image/ganesh.png" alt="ganesh">
+</div>
+<div class="thank-you-text"><p>Happy diwali and,</p>
+<h2>Thank You For Everything...</h2>
+</div>
+<p class="my-name">Made with 💜 By Digvijay</p>
+</section>
+
+ <script>
+      const receiverName = document.querySelector("#receiver");
+      const senderName = document.querySelector("#sender");
+      receiverName.innerText = new URLSearchParams(location.search).get(
+        "receiver"
+      );
+      senderName.innerText = new URLSearchParams(location.search).get("sender") || 'Anurag';
+    </script>
+</body>
+</html>
